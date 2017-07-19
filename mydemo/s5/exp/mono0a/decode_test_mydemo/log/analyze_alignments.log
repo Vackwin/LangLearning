@@ -1,0 +1,39 @@
+# gunzip -c exp/mono0a/decode_test_mydemo/phone_stats.*.gz | steps/diagnostic/analyze_phone_length_stats.py exp/mono0a/graph_tgpr 
+# Started at Wed Jul 12 22:31:37 CST 2017
+#
+analyze_phone_length_stats.py: WARNING: optional-silence SIL is seen only 60.0% of the time at utterance begin.  This may not be optimal.
+analyze_phone_length_stats.py: WARNING: optional-silence SIL is seen only 70.0% of the time at utterance end.  This may not be optimal.
+At utterance begin, SIL accounts for 60.0% of phone occurrences, with duration (median, mean, 95-percentile) is (37,42.5,50) frames.
+At utterance begin, nonsilence accounts for 40.0% of phone occurrences, with duration (median, mean, 95-percentile) is (41,46.0,50) frames.
+At utterance begin, m accounts for 30.0% of phone occurrences, with duration (median, mean, 95-percentile) is (39,43.3,41) frames.
+At utterance begin, n accounts for 10.0% of phone occurrences, with duration (median, mean, 95-percentile) is (54,54.0,54) frames.
+At utterance end, SIL accounts for 70.0% of phone occurrences, with duration (median, mean, 95-percentile) is (47,51.1,60) frames.
+At utterance end, nonsilence accounts for 30.0% of phone occurrences, with duration (median, mean, 95-percentile) is (6,17.0,15) frames.
+At utterance end, an accounts for 10.0% of phone occurrences, with duration (median, mean, 95-percentile) is (6,6.0,6) frames.
+At utterance end, ai accounts for 10.0% of phone occurrences, with duration (median, mean, 95-percentile) is (15,15.0,15) frames.
+At utterance end, au accounts for 10.0% of phone occurrences, with duration (median, mean, 95-percentile) is (30,30.0,30) frames.
+Overall, nonsilence accounts for 78.5% of phone occurrences, with duration (median, mean, 95-percentile) is (19,22.2,48) frames.
+Overall, SIL accounts for 21.5% of phone occurrences, with duration (median, mean, 95-percentile) is (47,46.5,60) frames.
+Overall, i accounts for 12.3% of phone occurrences, with duration (median, mean, 95-percentile) is (19,24.0,36) frames.
+Overall, an accounts for 9.2% of phone occurrences, with duration (median, mean, 95-percentile) is (24,24.7,30) frames.
+Overall, ng accounts for 7.7% of phone occurrences, with duration (median, mean, 95-percentile) is (3,4.8,6) frames.
+Overall, j accounts for 6.2% of phone occurrences, with duration (median, mean, 95-percentile) is (6,18.2,30) frames.
+Overall, yu accounts for 6.2% of phone occurrences, with duration (median, mean, 95-percentile) is (14,15.0,16) frames.
+Overall, m accounts for 6.2% of phone occurrences, with duration (median, mean, 95-percentile) is (39,33.2,41) frames.
+Overall, shi accounts for 3.1% of phone occurrences, with duration (median, mean, 95-percentile) is (3,23.5,3) frames.
+Overall, b accounts for 3.1% of phone occurrences, with duration (median, mean, 95-percentile) is (8,25.0,8) frames.
+Overall, au accounts for 3.1% of phone occurrences, with duration (median, mean, 95-percentile) is (3,16.5,3) frames.
+Overall, n accounts for 3.1% of phone occurrences, with duration (median, mean, 95-percentile) is (24,39.0,24) frames.
+Overall, ou accounts for 3.1% of phone occurrences, with duration (median, mean, 95-percentile) is (38,51.0,38) frames.
+Overall, chi accounts for 3.1% of phone occurrences, with duration (median, mean, 95-percentile) is (5,7.5,5) frames.
+Overall, u accounts for 3.1% of phone occurrences, with duration (median, mean, 95-percentile) is (15,22.5,15) frames.
+Overall, t accounts for 3.1% of phone occurrences, with duration (median, mean, 95-percentile) is (40,44.0,40) frames.
+Overall, a accounts for 3.1% of phone occurrences, with duration (median, mean, 95-percentile) is (13,13.5,13) frames.
+Overall, ai accounts for 1.5% of phone occurrences, with duration (median, mean, 95-percentile) is (15,15.0,15) frames.
+Overall, p accounts for 1.5% of phone occurrences, with duration (median, mean, 95-percentile) is (3,3.0,3) frames.
+The optional-silence phone SIL occupies 36.5% of frames overall 
+Limiting the stats to the 52.5% of frames not covered by an utterance-[begin/end] phone, optional-silence SIL occupies 4.1% of frames.
+Assuming 100 frames per second, the alignments represent 0.0 hours of data, or 0.0 hours if SIL frames are excluded.
+Utterance-internal optional-silences SIL comprise 2.2% of utterance-internal phones, with duration (median, mean, 95-percentile) = (35,38.0,35)
+# Accounting: time=1 threads=1
+# Ended (code 0) at Wed Jul 12 22:31:38 CST 2017, elapsed time 1 seconds

@@ -1,0 +1,53 @@
+<SIL> <SIL> SIL
+<eps> <eps> SIL
+bai2 bai2 b ai
+bao1 bao1 b au
+biao3 biao3 b i au
+bing1 bing1 b i ng
+cha2 cha2 chr a
+chang2 chang2 chr ang
+chau3 chau3 chr au
+chi2 chi2 chi
+chian2 chian2 chi i an
+chiuan1 chiuan1 chi yu an
+da3 da3 d a
+da4 da4 d a
+dou4 dou4 d ou
+du4 du4 d u
+fan4 fan4 f an
+guan3 guan3 g u an
+gung4 gung4 g u ng
+guo3 guo3 g u o
+hong2 hong2 h u ng
+hua1 hua1 h ua
+jan3 jan3 j an
+je2 je2 j ul
+ji1 ji1 j i
+jie3 jie3 j i e
+jing1 jing1 j i ng
+kai1 kai1 k ai
+kan4 kan4 k an
+lan3 lan3 l an
+lin2 lin2 l i en
+ma3 ma3 m a
+mian4 mian4 m i an
+mo5 mo5 m ul
+nai3 nai3 n ai
+niou2 niou2 n i ou
+peng2 peng2 p ng
+ping2 ping2 p i ng
+shan1 shan1 shr an
+shiang1 shiang1 shi i ang
+shiuan3 shiuan3 shi yu an
+shiue2 shiue2 shi yu e
+shou3 shou3 shr ou
+shr1 shr1 shr
+shr2 shr2 shr ul
+shuei3 shuei3 shr u ei
+sung1 sung1 s u ng
+tsai4 tsai4 ts ai
+tung3 tung3 t u ng
+tung4 tung4 t u ng
+tz5 tz5 tz
+wan2 wan2 w an
+you3 you3 i ou

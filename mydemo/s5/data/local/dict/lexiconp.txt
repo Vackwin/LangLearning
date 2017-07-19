@@ -1,0 +1,52 @@
+<SIL> 1.0	SIL
+jan3 1.0	j an
+lan3 1.0	l an
+guan3 1.0	g u an
+shr1 1.0	shr
+fan4 1.0	f an
+da4 1.0	d a
+shiue2 1.0	shi yu e
+bai2 1.0	b ai
+tsai4 1.0	ts ai
+chau3 1.0	chr au
+mian4 1.0	m i an
+niou2 1.0	n i ou
+nai3 1.0	n ai
+gung4 1.0	g u ng
+wan2 1.0	w an
+peng2 1.0	p ng
+you3 1.0	i ou
+sung1 1.0	s u ng
+shan1 1.0	shr an
+da3 1.0	d a
+je2 1.0	j ul
+chiuan1 1.0	chi yu an
+shiuan3 1.0	shi yu an
+du4 1.0	d u
+tz5 1.0	tz
+tung4 1.0	t u ng
+jie3 1.0	j i e
+kan4 1.0	k an
+shr2 1.0	shr ul
+mo5 1.0	m ul
+kai1 1.0	k ai
+shuei3 1.0	shr u ei
+ji1 1.0	j i
+jing1 1.0	j i ng
+shou3 1.0	shr ou
+hong2 1.0	h u ng
+cha2 1.0	chr a
+ping2 1.0	p i ng
+guo3 1.0	g u o
+chian2 1.0	chi i an
+bao1 1.0	b au
+ma3 1.0	m a
+tung3 1.0	t u ng
+biao3 1.0	b i au
+dou4 1.0	d ou
+hua1 1.0	h ua
+shiang1 1.0	shi i ang
+chang2 1.0	chr ang
+bing1 1.0	b i ng
+chi2 1.0	chi
+lin2 1.0	l i en

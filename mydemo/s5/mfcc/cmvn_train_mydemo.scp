@@ -1,0 +1,2 @@
+s1 /home/vack/kaldi/egs/mydemo/s5/mfcc/cmvn_train_mydemo.ark:3
+s2 /home/vack/kaldi/egs/mydemo/s5/mfcc/cmvn_train_mydemo.ark:245

@@ -1,0 +1,74 @@
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train_mydemo/wav_train_mydemo.1.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/vack/kaldi/egs/mydemo/s5/mfcc/raw_mfcc_train_mydemo.1.ark,/home/vack/kaldi/egs/mydemo/s5/mfcc/raw_mfcc_train_mydemo.1.scp 
+# Started at Wed Jul 12 22:31:08 CST 2017
+#
+copy-feats --compress=true ark:- ark,scp:/home/vack/kaldi/egs/mydemo/s5/mfcc/raw_mfcc_train_mydemo.1.ark,/home/vack/kaldi/egs/mydemo/s5/mfcc/raw_mfcc_train_mydemo.1.scp 
+compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train_mydemo/wav_train_mydemo.1.scp ark:- 
+WARNING (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0001
+WARNING (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0002
+WARNING (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0003
+WARNING (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0004
+WARNING (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0005
+WARNING (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0006
+WARNING (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0007
+WARNING (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0008
+WARNING (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0009
+WARNING (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:116) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:177) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0010
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0011
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0012
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0013
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0014
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0015
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0016
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0017
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0018
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0019
+LOG (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:177) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0020
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0021
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0022
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0023
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0024
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s1_u0025
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0001
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0002
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0003
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0004
+LOG (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:177) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0005
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0006
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0007
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0008
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0009
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0010
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0011
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0012
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0013
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0014
+LOG (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:177) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0015
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0016
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0017
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0018
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0019
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0020
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0021
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0022
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0023
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0024
+LOG (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:177) Processed 50 utterances
+VLOG[2] (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:178) Processed features for key s2_u0025
+LOG (compute-mfcc-feats[5.1.83~1-ba138]:main():compute-mfcc-feats.cc:181)  Done 50 out of 50 utterances.
+LOG (copy-feats[5.1.83~1-ba138]:main():copy-feats.cc:132) Copied 50 feature matrices.
+# Accounting: time=4 threads=1
+# Ended (code 0) at Wed Jul 12 22:31:12 CST 2017, elapsed time 4 seconds

@@ -1,0 +1,32 @@
+# lattice-scale --inv-acoustic-scale=10 "ark:gunzip -c exp/mono0a/decode_test_mydemo/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp/mono0a/graph_tgpr/words.txt ark:- ark,t:exp/mono0a/decode_test_mydemo/scoring/10.tra 
+# Started at Wed Jul 12 22:31:38 CST 2017
+#
+lattice-best-path --word-symbol-table=exp/mono0a/graph_tgpr/words.txt ark:- ark,t:exp/mono0a/decode_test_mydemo/scoring/10.tra 
+lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
+lattice-scale --inv-acoustic-scale=10 'ark:gunzip -c exp/mono0a/decode_test_mydemo/lat.*.gz|' ark:- 
+LOG (lattice-best-path[5.1.83~1-ba138]:main():lattice-best-path.cc:99) For utterance s1_u0005, best cost 6.55123 + 1386.23 = 1392.79 over 167 frames.
+s1_u0005 niou2 LOG (lattice-scale[5.1.83~1-ba138]:main():lattice-scale.cc:90) Done 10 lattices.
+nai3 
+LOG (lattice-best-path[5.1.83~1-ba138]:main():lattice-best-path.cc:99) For utterance s1_u0010, best cost 7.88107 + 1365.03 = 1372.91 over 161 frames.
+s1_u0010 chiuan1 shiuan3 
+LOG (lattice-add-penalty[5.1.83~1-ba138]:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 10 lattices.
+LOG (lattice-best-path[5.1.83~1-ba138]:main():lattice-best-path.cc:99) For utterance s1_u0015, best cost 9.04321 + 1618.41 = 1627.45 over 206 frames.
+s1_u0015 ji1 jing1 
+LOG (lattice-best-path[5.1.83~1-ba138]:main():lattice-best-path.cc:99) For utterance s1_u0020, best cost 8.38687 + 1328.45 = 1336.84 over 164 frames.
+s1_u0020 ma3 tung3 
+LOG (lattice-best-path[5.1.83~1-ba138]:main():lattice-best-path.cc:99) For utterance s1_u0025, best cost 12.0969 + 1377.81 = 1389.9 over 167 frames.
+s1_u0025 mian4 bao1 
+LOG (lattice-best-path[5.1.83~1-ba138]:main():lattice-best-path.cc:99) For utterance s2_u0005, best cost 7.58658 + 1473.93 = 1481.52 over 199 frames.
+s2_u0005 peng2 you3 
+LOG (lattice-best-path[5.1.83~1-ba138]:main():lattice-best-path.cc:99) For utterance s2_u0010, best cost 9.10878 + 1396.25 = 1405.36 over 175 frames.
+s2_u0010 chiuan1 shiuan3 
+LOG (lattice-best-path[5.1.83~1-ba138]:main():lattice-best-path.cc:99) For utterance s2_u0015, best cost 8.92659 + 1400.69 = 1409.62 over 179 frames.
+s2_u0015 ji1 jing1 
+LOG (lattice-best-path[5.1.83~1-ba138]:main():lattice-best-path.cc:99) For utterance s2_u0020, best cost 7.10902 + 1308.11 = 1315.22 over 179 frames.
+s2_u0020 ma3 tung3 
+LOG (lattice-best-path[5.1.83~1-ba138]:main():lattice-best-path.cc:99) For utterance s2_u0025, best cost 7.87609 + 1379.83 = 1387.71 over 187 frames.
+s2_u0025 mian4 bao1 
+LOG (lattice-best-path[5.1.83~1-ba138]:main():lattice-best-path.cc:124) Overall cost per frame is 7.91442 = 0.0474026 [graph] + 7.86701 [acoustic] over 1784 frames.
+LOG (lattice-best-path[5.1.83~1-ba138]:main():lattice-best-path.cc:128) Done 10 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Wed Jul 12 22:31:38 CST 2017, elapsed time 0 seconds

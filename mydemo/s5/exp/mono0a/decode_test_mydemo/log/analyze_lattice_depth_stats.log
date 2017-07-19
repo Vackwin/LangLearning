@@ -1,0 +1,25 @@
+# gunzip -c exp/mono0a/decode_test_mydemo/depth_stats_tmp.*.gz | steps/diagnostic/analyze_lattice_depth_stats.py exp/mono0a/graph_tgpr 
+# Started at Wed Jul 12 22:31:38 CST 2017
+#
+The total amount of data analyzed assuming 100 frames per second is 0.0 hours
+Overall, lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Nonsilence phones as a group account for 63.5% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone SIL accounts for 36.5% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone i accounts for 10.8% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone an accounts for 8.3% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone m accounts for 7.5% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ou accounts for 5.7% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone t accounts for 4.9% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone n accounts for 4.4% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone j accounts for 4.1% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone yu accounts for 3.4% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone b accounts for 2.8% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone shi accounts for 2.6% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone u accounts for 2.5% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone au accounts for 1.8% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone a accounts for 1.5% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ng accounts for 1.3% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ai accounts for 0.8% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone chi accounts for 0.8% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Wed Jul 12 22:31:38 CST 2017, elapsed time 0 seconds
